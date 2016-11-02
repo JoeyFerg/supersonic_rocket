@@ -6,13 +6,13 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 users = User.create([{name: 'John Doe'},
-		     {name: 'Jane Doe'},
-		     {name: 'Dr. White'},
-		     {name: 'Dr. Brandle'},
-		     {name: 'Dr. Cramer'},
-		     {name: 'Dr. Denning'},
-		     {name: 'Dr. Stanley'},
-		     {name: 'Prof. Bauson'} ])
+		                 {name: 'Jane Doe'},
+		                 {name: 'Dr. White'},
+		                 {name: 'Dr. Brandle'},
+		                 {name: 'Dr. Cramer'},
+		                 {name: 'Dr. Denning'},
+		                 {name: 'Dr. Stanley'},
+		                 {name: 'Prof. Bauson'} ])
 
 def random_string(length)
     # from http://stackoverflow.com/questions/88311/how-best-to-generate-a-random-string-in-ruby
